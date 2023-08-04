@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+ }
+/*
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+h1{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    font-size: 3.5rem;
+    padding-top: 15rem;
+}
+p{
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 0.2rem;
+}
+
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(243, 239, 239);
+    font-size: 30px;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+h2:hover{
+    background:rgb(236, 120, 120);
+    width: auto;
+    height: 200px;
+    color: black;
+    
+}
+
+header{
+    width: 100%;
+    overflow: hidden;
+    background: #000000;
+    margin-bottom: 20px;
+    line-height: 60px; /*ancho del encabezado poner el mismo en header nav para centrar los elementos*/
+           
+}
+
+header nav{
+    float: right;
+    line-height: 60px; 
+}
+
+header nav a{
+    display: inline-block; /*para que este uno seguido del otro*/
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-decoration:none;
+    padding: 10px 20px; /*distancia entre elementos*/
+    line-height: normal;
+}
+
+header nav a:hover {
+    background: rgb(236, 120, 120);
+    border-radius: 50px;
+
+}
+
+.centrado{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.columna1{
+    text-align: center;
+    padding: 15rem 0rem;
+
+}
+
+.columna1 a{
+    text-decoration: none;
+    color: white;
+}
+.columna1 a:hover { 
+    color: #000;
+}
+
+.columna2{
+    text-align: center;
+    padding: 15rem 0rem;
+}
+.columna2 a{
+    text-decoration: none;
+    color: white;
+}
+.columna2 a:hover{
+    color: #000;
+}
+
+#cv a{
+    color: white; 
+    text-decoration:underline;
+    padding: 20px;
+
+}
+/*
+.redessociales{
+    display: inline-block;
+    height: 10vh;
+}
+
+.redessociales ul li{
+    display: inline-block;
+    margin: 0 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    
+}
+
+.redessociales ul li i{
+    display:block;
+    padding: 0 10px;
+    color: white;
+    line-height: 50px;
+    font-size: 30px;
+    box-shadow: 0 1px 3px 0px;
+    border-radius: 20px;
+    
+}*/
+
+
